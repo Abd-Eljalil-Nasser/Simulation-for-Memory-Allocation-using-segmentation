@@ -13,7 +13,7 @@ In this method, the operating system first searches the whole of the memory acco
 ### Worst_Fit Memory Allocation
 In this allocation technique the process traverse the whole memory and always search for largest hole/partition, and then the process is placed in that hole/partition.It is a slow process because it has to traverse the entire memory to search largest bole. 
 ## Input 
-User enter memory size and the number of hole/partition in the memory then specify the starting address and the size of each hole/partition . After that a dialog opens , the user can add a process but he / she has to specify number of segments of this process, the name and size  of each segment and the used algorithm (first , best ,worst).
+User enter memory size and the number of hole/partition in the memory then specify the starting address and the size of each hole/partition If the size of all holes/partitions is greater than the whole memory size an error message will be displayed .IF the size of all holes/partitions is less than the size of the whole memory the remaining part will be considered an old process .After that a dialog opens , the user can add a process but he / she has to specify number of segments of this process, the name and size  of each segment and the used algorithm (first , best ,worst).
 Also User call deallocate processes .
 ## Output 
 vertical chart represent Memory Alloction accorrding to the used algorithm.   
