@@ -1,4 +1,4 @@
-# Simulation-for-Memory-Allocation-using-segmentation
+# Simulation for Memory Allocation using segmentation
 ## Requirements 
 - C++ 
 - Qt creator 
